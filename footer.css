@@ -1,0 +1,161 @@
+.footer {
+    min-height: 100px;
+    background-color: #7ebf4254;
+    border-top: solid 5px #C1C1BF;
+    padding: 30px 0;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.footer .media {
+    float: left;
+    width: 520px;
+}
+
+.features h1 {
+    color: #3f8cff;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+.features ul {
+    padding-left: 30px;
+    color: #3e3634;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 2vh;
+}
+
+.qp {
+    min-height: 50px;
+    background-color: #3E3634;
+    color: #ffffff;
+    padding: 10px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.footer .location {
+    float: left;
+    width: 460px;
+    position: relative;
+    left: 6vh;
+}
+
+.clear {
+    clear: both;
+}
+
+.btmLinks {
+    border-top: dotted 1px #3E3634;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 18px;
+}
+
+.footer .location ul {
+    list-style-type: none;
+}
+
+.footer .location ul li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer .location ul p:first-child {
+    color: #fff;
+}
+
+.footer .location ul p {
+    padding: 0;
+    margin: 0;
+    line-height: 22px;
+    color: #252525;
+    padding-left: 60px;
+}
+
+.footer .location ul li.pin:before {
+    content: "\f041";
+}
+
+.footer .location ul li.tel:before {
+    content: "\f095";
+}
+
+.footer .location ul li.mail:before {
+    content: "\f124";
+}
+
+h4 {
+    font-size: 18px;
+    color: #d21f26a8;
+    margin: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #252525;
+}
+
+.footer .location ul li:before {
+    content: "\f041";
+    font-family: FontAwesome;
+    font-size: 40px;
+    position: absolute;
+    top: 41px;
+    color: #3E3634;
+    width: 40px;
+    text-align: center;
+}
+
+.btmLinks {
+    border-top: dotted 1px #3E3634;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.btmLinks a {
+    padding: 0 15px;
+    color: #3E3634;
+    transition: ease all .5s;
+}
+
+.footer .location ul p a {
+    text-decoration: none;
+    color: #3F8CFF;
+    font-size: 18px;
+}
+
+.footer .copyright .container p {
+    top: -18px;
+}
+
+.btmLinks a:hover {
+    color: #3F8CFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btmLinks a:focus {
+
+    border: 1px solid;
+    border-style: dotted;
+}
+
+.copyright {
+    height: 40px;
+
+    background-color: #3F8CFF;
+}

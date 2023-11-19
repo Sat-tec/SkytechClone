@@ -1,0 +1,40 @@
+@media screen and (max-width: 1185px) {
+
+  .cha-wid {
+    /* width: initial; */
+    margin: 0 auto;
+  }
+
+  .footer {
+    width: 72pc;
+  }
+
+  .menubar .left {
+    background: #3F8CFF;
+  }
+
+  .menubar {
+    background: transparent;
+  }
+
+  .footer .copyright .container p {
+    top: -11px;
+  }
+}
+
+
+@media screen and (max-width: 1064px) {
+
+  .main {
+    position: absolute;
+
+  }
+
+  .pad-lef {
+    padding-right: 1pc;
+  }
+
+  .footer {
+    width: 69pc;
+  }
+}

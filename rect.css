@@ -1,0 +1,89 @@
+h1 {
+    margin: .67em 0;
+}
+
+.contents .rect {
+    float: left;
+}
+
+.contents .links {
+    width: 645px;
+    min-height: 200px;
+
+}
+
+.contents .links div i {
+    display: block;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contents .links>div {
+    width: 310px;
+    background-color: #fff;
+    height: 200px;
+    float: left;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    padding: 20px 50px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #211917;
+    position: relative;
+}
+
+.contents .links>div>div {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: solid 40px #3F8CFF;
+    border-right: solid 40px transparent;
+    border-bottom: solid 40px transparent;
+    border-left: solid 40px #3F8CFF;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    -webkit-transition: ease all .5s;
+    transition: ease all .5s;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contents .links div h1 {
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.contents .links div p {
+    text-align: center;
+}
+
+.contents .links div:hover {
+    background-color: #3F8CFF;
+    color: #fff;
+}
+
+.contents .links div:hover>div {
+    border-top: solid 40px #fff;
+    border-right: solid 40px transparent;
+    border-bottom: solid 40px transparent;
+    border-left: solid 40px #fff;
+}

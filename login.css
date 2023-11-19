@@ -1,0 +1,96 @@
+.contents .logins {
+    width: 645px;
+    min-height: 200px;
+}
+
+.contents .logins>div {
+    width: 310px;
+    background-color: #fff;
+    height: 200px;
+    float: left;
+    transition: all .5s ease;
+    box-sizing: border-box;
+    color: #211917;
+    position: relative;
+}
+
+.contents .logins h1 {
+    margin: 0;
+    padding: 10px;
+    background-color: #3F8CFF;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.contents .logins>div>div {
+    padding: 15px 30px 10px 30px;
+    position: relative;
+}
+
+.contents .logins .bx {
+    display: block;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.contents .logins i {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 1px 0 0 1px;
+    border-right: solid 1px #dfdfdf;
+    background-color: #f6f6f6;
+}
+
+.contents .logins input[type=text],
+.contents .logins input[type=password] {
+    border: solid 1px #dfdfdf;
+    display: block;
+    padding: 6px 10px 6px 38px;
+    width: 86%;
+    -moz-box-sizing: padding-box;
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    font-family: Roboto;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.contents .logins input[type=submit] {
+    background-color: #3F8CFF;
+    font-family: Roboto;
+    border: solid 1px #3F8CFF;
+    padding: 3px 15px;
+}
+
+.contents .logins a.x {
+    display: block;
+    padding-right: 10px;
+    line-height: 28px;
+    font-size: 11px;
+    text-align: right;
+    margin-top: -19px;
+    margin-right: -29px;
+}
+
+.contents .logins input[type=text],
+.contents .logins input[type=password] {
+    outline: coral;
+}
