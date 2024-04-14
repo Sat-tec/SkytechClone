@@ -155,7 +155,10 @@ a {
 }
 
 .copyright {
-    height: 40px;
-
-    background-color: #3F8CFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3f8cff;
+    height: 38px;
+    width: 100%;
 }
