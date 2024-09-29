@@ -1,0 +1,104 @@
+/* General Styles */
+h2 {
+  font-weight: normal;
+  border-left: solid 3px #3F8CFF;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+body {
+  background-color: #EBEBE9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333;
+  margin: 0;
+}
+
+p {
+  margin-top: 14px;
+}
+
+/* Table Styles */
+.gvw {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.gvw th {
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 10px;
+  border-bottom: solid 2px #3F8CFF;
+}
+
+.gvw tbody td {
+  text-align: left;
+  line-height: 28px;
+  padding-left: 10px;
+  border-bottom: solid 1px #cfcfcf;
+  transition: ease all 0.5s;
+  user-select: none;
+  cursor: default;
+}
+
+.gvw tbody tr:nth-child(2n+2) {
+  background-color: #f6f6f6;
+  transition: ease all 0.5s;
+}
+
+/* Tab Content */
+.tabcontent {
+  animation: fadeEffect 1s;
+  background: #FFF;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+  margin-top: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* Tabs Styling */
+.tab {
+  margin-top: 17px;
+}
+
+.tab button {
+  border: none;
+  outline: none;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  text-align: center;
+  color: #333333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Hover effect for inactive tabs */
+.tab button:hover {
+  color: #3F8CFF;
+}
+
+/* Active tab styling */
+.tab .tablinks-active {
+  height: 34px;
+  text-align: center;
+  background: #FAFAFA;
+  border-right: 1px solid #CFCFCF;
+  border-left: 1px solid #CFCFCF;
+  border-top: 3px solid #3F8CFF;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: none !important;
+  padding-top: 7px;
+  color: #3F8CFF;
+}
+
+/* Fade effect for content */
+@keyframes fadeEffect {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

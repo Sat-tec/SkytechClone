@@ -55,10 +55,17 @@
     border-left: solid 2px #3F8CFF;
 }
 
-.menubar .menu #lnkHome {
-    color: #3F8CFF;
+/* Highlight active link */
+.menubar .menu li a.active {
+    color: #3F8CFF; /* Change color for active link */
     border-left: solid 2px #3F8CFF;
 }
+
+/* Home link initially highlighted */
+/* .menubar .menu #lnkHome {
+    color: #3F8CFF;
+    border-left: solid 2px #3F8CFF;
+} */
 
 .menubar .left {
     width: 290px;
