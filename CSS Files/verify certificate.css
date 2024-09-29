@@ -1,0 +1,53 @@
+h2 {
+    font-weight: normal;
+    border-left: solid 3px #3F8CFF;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.tbl {
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.tbl>div {
+    display: table-row;
+}
+
+.tbl>div>div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0;
+}
+
+input[type=text] {
+    border: solid 1px #3F8CFF;
+    background-color: #fff;
+    line-height: 25px;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #3F8CFF;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #3F8CFF;
+}
+
+
+.btn {
+    line-height: 25px;
+    border: 1px solid #3F8CFF;
+    background-color: #3F8CFF;
+    color: #fff;
+    display: inline-block;
+    padding: 1px 8px;
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+}
+
+.photo-cont {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 1pc;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.gallery {
+    margin: 0 auto;
+    width: 65pc;
+}
+
+.gallery img {
+    width: 230px;
+    padding: 8px;
+
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+h2 {
+    font-weight: normal;
+    border-left: solid 3px #3F8CFF;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.tbl>div>div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0;
+}
+
+p {
+    margin-top: 2vh;
+}
+
+.content {
+    margin-left: 30px;
+    margin-top: 2vh;
+}
+
+.content li {
+    margin-top: 1vh;
+}
